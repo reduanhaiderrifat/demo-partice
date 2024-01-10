@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practic</title>
+    <style>
+        .image{
+            display: flex;
+            justify-content: space-around;
+        }
+        .img{
+            display: flex;
+            justify-content: space-around;
+        }
+      button{
+        width: 70px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+   
+    
+    .hey{
+        display: flex;
+    }
+    .hi{
+        display: flex;
+    }
+        @media screen and (max-width:480px) and (max-width:767px) and (max-width:1024px) {
+            .image, .img, .hey{
+                flex-direction: column;
+            }
+
+            .hi{
+                
+                
+                flex-direction: column-reverse;
+            }
+        }
+   
+ 
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image">
+            <img src="images/food.jpg" alt="">
+            <p> orem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sit?</p>
+            <button>subscribe</button>
+            </div>
+            <div class="img">
+          <img src="images/tiger.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate.</p>
+          <button>subscribe</button>
+        </div>
+    </header>
+    <main>
+        <section>
+      <div class="hey">
+        <img src="images/food.jpg" alt="">
+        <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, repellendus!</p>
+      </div>
+
+      <div class="hi">        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, pariatur.</p>
+        <img src="images/tiger.jpg" alt="">
+      </div>
+    </section>
+    </main>
+</body>
+</html>
